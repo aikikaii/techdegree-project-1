@@ -89,9 +89,19 @@ function timer() {
     window.setInterval('printQuote()', 10000);
 }
 
+//creating function that will change background color every 10 seconds
+
+function changeBackgroundColorWithTimer() {
+    window.setInterval('getRandomColor()', 10000);
+}
+
 //calling function timer
 
 timer();
+
+//calling function changeBackgroundColorWithTimer
+
+changeBackgroundColorWithTimer();
 
 //creating getRandomQuote function that will throw random quote from quotes array
 
